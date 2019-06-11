@@ -4,6 +4,7 @@
   "homepage": "https://chibuezeanakor.github.io/jammming/",
   "private": true,
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^5.0.1",
