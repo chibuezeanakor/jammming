@@ -1,6 +1,6 @@
 let accessToken, expiresIn;
 const clientId = "9364ed7c179d47469880c4446ef7fa3a";
-const redirectUri = "http://localhost:3000/";
+const redirectUri = "https://chibuezeanakor.github.io/jammming/";
 const spotifyUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&scope=playlist-modify-public&redirect_uri=${redirectUri}`;
 
 let Spotify = {
