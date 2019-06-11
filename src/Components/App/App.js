@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import SearchBar from '../SearchBar/SearchBar';
 import SearchResults from '../SearchResults/SearchResults';
 import Playlist from '../Playlist/Playlist';
@@ -62,6 +63,7 @@ class App extends Component {
   render() {
     return (
       <div>
+        <BrowserRouter basename="/jammming" />
   <h1>Ja<span className="highlight">mmm</span>ing</h1>
   <div className="App">
     <SearchBar onSearch={this.search} />
