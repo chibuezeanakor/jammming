@@ -11,7 +11,7 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build && cp CNAME ./dist",
+    "predeploy": "npm run build",
     "add-domain": "echo \"chibuezeanakor.dev\" > build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
